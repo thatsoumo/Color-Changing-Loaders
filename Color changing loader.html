@@ -1,0 +1,112 @@
+<h2 align="center">Color Changing Loader</h2>
+
+<div class="loader" >
+    <p>Loader </p>
+</div>
+<div class="loader1">
+    <p>Loader 1</p>
+</div>
+<div class="loader2">
+    <p>Loader 2</p>
+</div>
+<div class="loader3">
+    <img src="https://t4.ftcdn.net/jpg/05/65/93/07/360_F_565930741_OIrUw7YQ05weSqdTQ4RmgkdieCUruF8A.jpg" width="30px"height="30px">
+    <p>Loader 3</p>
+    
+</div>
+<div class="loader4">
+    <img src="https://t4.ftcdn.net/jpg/05/65/93/07/360_F_565930741_OIrUw7YQ05weSqdTQ4RmgkdieCUruF8A.jpg" width="30px" height="30px">
+    <p>Loader 4</p>
+</div>
+<div class="loader5">
+    <p>Loader 5</p>
+</div>
+<style>
+
+    @keyframes colorchange {
+        0%   {background-color: red;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite, colorchange 1s infinite;
+  position:relative;
+  margin:600px;
+  top:-550px;
+  left:195px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+*{
+  background-color:orange;
+}
+.loader1{
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid yellow;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite, colorchange 1s infinite;
+  position:relative;
+  margin:300px;
+  top:-1150px;
+  left:255px;
+}
+.loader2{
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid yellow;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite, colorchange 1s infinite;
+  position:relative;
+  margin:300px;
+  top:-1550px;
+  left:600px;
+}
+.loader3{
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid red;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite, colorchange 1s infinite;
+  position:relative;
+  margin:300px;
+  top:-2050px;
+  left:900px;
+}
+.loader4{
+  border: 15px solid #f3f3f3;
+  border-radius:50%;
+  border-top: 12px solid red;
+  width:100px;
+  height:100px;
+  animation: spin 1s linear infinite,colorchange 1s infinite;
+  position:relative;
+  margin:400px;
+  top:-2800px;
+}
+.loader5{
+    border:15px solid rgba(112, 216, 159, 0.616);
+    border-radius: 50%;
+    border-top:15px solid greenyellow;
+    width:115px;
+    height:115px;
+    animation: spin 1s linear infinite, colorchange 1s infinite;
+    position:relative;
+    margin:500px;
+    top:-3000px;
+    left: 8px;00px;
+
+}
+</style>
